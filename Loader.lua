@@ -46,7 +46,7 @@ task.wait(1)
 local scriptUrl = "https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/roblox-Script/refs/heads/main/%E7%BB%BF.lua"
 
 pcall(function()
-	loadstring(game:HttpGet(https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/roblox-Script/refs/heads/main/%E7%BB%BF.lua))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/roblox-Script/refs/heads/main/%E7%BB%BF.lua"))()
 end)
 
 running = false
