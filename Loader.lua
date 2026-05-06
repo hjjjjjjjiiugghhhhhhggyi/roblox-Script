@@ -34,8 +34,6 @@ tween:Play()
 task.delay(2, function()
     screenGui:Destroy()
 
-    -- 👉 在这里放你的脚本加载内容
-    -- 示例1：执行函数
     print("加载完成，执行脚本")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/roblox-Script/refs/heads/main/%E7%BB%BF.lua"))()
 end)
