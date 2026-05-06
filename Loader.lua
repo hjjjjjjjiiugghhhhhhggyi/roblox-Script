@@ -15,7 +15,7 @@ image.Size = UDim2.new(0, 150, 0, 150)
 image.Position = UDim2.new(0.5, 0, 0.5, 0)
 image.AnchorPoint = Vector2.new(0.5, 0.5)
 image.BackgroundTransparency = 1
-image.Image = "rbxassetid://116544501716299" -- 换成你的图片ID
+image.Image = "rbxassetid://116544501716299" 
 image.Parent = screenGui
 
 -- 旋转动画（2秒）
