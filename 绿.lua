@@ -189,7 +189,6 @@ closeBtn.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
 
--- ⏱ 自动关闭（6秒）
 task.delay(6, function()
     if gui then
         TweenService:Create(frame, TweenInfo.new(0.25), {
@@ -7755,7 +7754,6 @@ task.wait(0.1)
 
 local selectSection = globalTab:Section("脚本列表(一周更5个)", true)
 
--- 国外常用脚本库
 local globalScripts = {
     ["石油帝国"] = "https://raw.githubusercontent.com/oorbits/Script-hub/refs/heads/main/obfuscated.lua.txt",
     ["evade 1"] = "https://raw.githubusercontent.com/OneProtocol/Project/main/Loader",
@@ -7806,21 +7804,16 @@ selectSection:Label("需要翻译或执行翻译脚本")
 local aboutTab = window:Tab("关于", '116544501716299') 
 local aboutSection = aboutTab:Section("脚本信息", true)
 
--- 脚本名称
 aboutSection:Label("脚本名称: 绿缝合版")
 aboutSection:Label("版本: 0.2")
 aboutSection:Label("作者: 不知道")
 
--- 分隔线
 aboutSection:Label(" ")
 
--- 功能介绍
 local featureSection = aboutTab:Section("功能介绍", true)
 featureSection:Label("• 通用功能 ")
 
--- 分隔线
 featureSection:Label(" ")
 
--- 免责声明
 local disclaimerSection = aboutTab:Section("免责声明", true)
 disclaimerSection:Label("使用风险自负")
